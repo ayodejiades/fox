@@ -1,0 +1,36 @@
+{
+  "project": "fox",
+  "idea": "FoX — SLA-gated streaming settlement for live FX/rate feeds. The narrow job: an agent that needs a continuously live, trustworthy exchange rate (CELO stablecoin <-> cNGN/wBRL/wARS, or USA₮ pairs) to execute a remittance, bill-pay, or FX-corridor trade pays per second of good data, not per call.",
+  "track": "web2",
+  "team": 1,
+  "event": {
+    "name": "# Agents at Work Hackathon",
+    "start": "2026-08-28T13:00:00",
+    "end": "2026-09-21T09:00:00",
+    "tz": "UTC",
+    "submissionUrl": "https://celobuilders.xyz"
+  },
+  "limits": {
+    "videoMaxSeconds": 180,
+    "videoMinSeconds": 0,
+    "repoMustBePublic": true,
+    "requiresOssLicense": false,
+    "aiDisclosureRequired": false,
+    "maxTeam": 4,
+    "source": "rules",
+    "videoTargetSeconds": 153
+  },
+  "sponsors": [],
+  "theme": "aurora",
+  "accent": "#F59E0B",
+  "illustrations": "undraw",
+  "source": "heuristic",
+  "unknown": [
+    "limits.videoMaxSeconds",
+    "limits.maxTeam",
+    "limits.repoMustBePublic",
+    "limits.requiresOssLicense",
+    "limits.aiDisclosureRequired",
+    "sponsors"
+  ]
+}

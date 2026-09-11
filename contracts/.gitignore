@@ -1,0 +1,24 @@
+# Compiler files
+cache/
+out/
+
+# Vendored dependencies — this repo is not a git-submodule setup (the outer fox repo
+# is the only .git). Run `cd contracts && forge install` to fetch these fresh instead.
+lib/
+
+# Commonly ignored directories
+.logs/
+.ignore/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+.env.*
+!.env.example

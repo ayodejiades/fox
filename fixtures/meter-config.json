@@ -1,0 +1,6 @@
+{
+  "feedLabel": "CELO/cNGN rate feed",
+  "currency": "cNGN",
+  "ratePerSecond": 0.001,
+  "maxLatencyMs": 800
+}

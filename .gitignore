@@ -1,0 +1,109 @@
+# ==================================================
+# Ignore everything by default (deny-all policy)
+# ==================================================
+/*
+
+# ==================================================
+# Whitelist: Root configuration & submission files
+# ==================================================
+!/.gitignore
+!/.gitmodules
+!/.env.example
+!/README.md
+!/LICENSE
+!/Makefile
+!/package.json
+!/pnpm-lock.yaml
+!/pnpm-workspace.yaml
+!/tsconfig.json
+!/next.config.ts
+!/postcss.config.mjs
+!/tailwind.config.ts
+!/eslint.config.mjs
+!/next-env.d.ts
+!/vercel.json
+!/brief.json
+
+# ==================================================
+# Whitelist: Core project directories & contents
+# ==================================================
+!/.github/
+!/.github/**
+
+!/.kit/
+!/.kit/**
+
+!/app/
+!/app/**
+
+!/components/
+!/components/**
+
+!/contracts/
+!/contracts/**
+
+
+!/fixtures/
+!/fixtures/**
+
+!/lib/
+!/lib/**
+
+!/public/
+!/public/**
+
+!/scripts/
+!/scripts/**
+
+!/tests/
+!/tests/**
+
+# ==================================================
+# Re-ignore build outputs, dependencies, secrets & temp
+# ==================================================
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+pnpm-debug.log*
+*.log
+*.log*
+
+# Environment & secrets
+.env
+.env*
+*.env
+*.env*
+.env.local
+.env.*.local
+
+# Foundry / Solidity compilation artifacts
+contracts/out/
+contracts/cache/
+
+# Documentation & demo media
+docs/
+public/audio/
+
+# Editor & OS files
+.DS_Store
+.vscode/
+.idea/
+.vercel/
+*.bak
+*.tmp
+*.swp
+*~
+
+# Internal agent runbooks & prompt specifications
+AGENTS.md
+agents.md
+WEAK_MODEL_PROMPT.md
+weak_model_prompt*
+
+# Credits
+CREDITS.md
+credits.md
+
